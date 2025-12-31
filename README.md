@@ -1,58 +1,57 @@
 # G2-dataset-samples
 
-<h2>A sample dataset of 1001 G2 software product reviews</h2>
+<h2>1001件のG2ソフトウェア製品レビューのサンプルデータセット</h2>
 
 ![G2 dataset header](https://github.com/luminati-io/G2-dataset-sample/blob/main/G2-datasets.png)
 
-A G2 sofware product reviews dataset sample of over 1000 records. Dataset was extracted using the <b>Bright Data API</b>.
+1000件超のレコードを含むG2ソフトウェア製品レビューのデータセットサンプルです。データセットは<b>Bright Data API</b>を使用して抽出されています。
 
-<h2>Some of the data points that are included in the dataset:</h2>
+<h2>データセットに含まれるデータポイントの一部:</h2>
 
-* ```review_id```: The unique identifier for the review
-* ```author_id```: The unique identifier for the author of the review
-* ```author```: The name of the author who wrote the review
-* ```position```: The position or role of the author
-* ```company_size```: The size or type of the author's company
-* ```stars```: The star rating given in the review, indicating the overall satisfaction
-* ```date```: The date when the review was posted
-* ```title```: The title or headline of the review
-* ```text```: The main content or body of the review, providing detailed information about the user's experience
-* ```tags```: Tags associated with the review, indicating key topics or categories
-* ```review_url```: The URL or link to the specific review
-* ```url```: Another URL associated with the review or related content
-* ```product_url```: The URL or link to the software product being reviewed
-* ```page```: The page or location of the review within the G2 website or platform
-* ```product_name```: The name of the product being reviewed
-* ```vendor_name```: The name of the vendor or provider of the product
-* ```pages```: Number of pages in the input
-* ```sort_filter```: Sort or filter option from input
+* ```review_id```: レビューの一意識別子です
+* ```author_id```: レビュー著者の一意識別子です
+* ```author```: レビューを書いた著者名です
+* ```position```: 著者の役職または役割です
+* ```company_size```: 著者の会社の規模または種類です
+* ```stars```: レビューで付けられた星評価で、全体的な満足度を示します
+* ```date```: レビューが投稿された日付です
+* ```title```: レビューのタイトルまたは見出しです
+* ```text```: レビューの本文で、ユーザー体験に関する詳細情報を提供します
+* ```tags```: レビューに関連付けられたタグで、主要トピックやカテゴリを示します
+* ```review_url```: 特定のレビューへのURLまたはリンクです
+* ```url```: レビューまたは関連コンテンツに紐づく別のURLです
+* ```product_url```: レビュー対象のソフトウェア製品へのURLまたはリンクです
+* ```page```: G2のWebサイトまたはプラットフォーム内でのレビューのページまたは掲載位置です
+* ```product_name```: レビュー対象製品名です
+* ```vendor_name```: 製品のベンダーまたは提供元の名称です
+* ```pages```: 入力内のページ数です
+* ```sort_filter```: 入力からの並び替えまたはフィルターのオプションです
 
-And a lot more.
+ほかにも多数含まれます。
 
-This is a sample subset which is derived from the "G2 software product review (public data)"
-dataset which includes more than <b>580,000 records</b>.
+これは「G2 software product review (public data)」データセットから派生したサンプルサブセットで、当該データセットには<b>580,000件超のレコード</b>が含まれます。
 
-Available dataset file formats: <b>JSON, NDJSON, JSON Lines, CSV, or Parquet. Optionally, files can be compressed to .gz</b>.
+利用可能なデータセットのファイル形式: <b>JSON, NDJSON, JSON Lines, CSV, or Parquet。必要に応じてファイルを .gz に圧縮できます</b>。
 
-Dataset delivery type options: <b>Email, API download, Webhook, Amazon S3, Google Cloud storage, Google Cloud PubSub, Microsoft Azure, Snowflake, SFTP</b>.
+データセット配信タイプのオプション: <b>Email, API download, Webhook, Amazon S3, Google Cloud storage, Google Cloud PubSub, Microsoft Azure, Snowflake, SFTP</b>。
 
-Update frequency: <b>Once, Daily, Weekly, Monthly, Quarterly, or Custom basis</b>.
+更新頻度: <b>Once, Daily, Weekly, Monthly, Quarterly, or Custom basis</b>。
 
-Data enrichment available as an addition to the data points extracted: <b>Based on request.</b>
+抽出したデータポイントに追加できるデータエンリッチメント: <b>Based on request.</b>
 
-<b>[Get the full G2 dataset](https://brightdata.com/products/datasets/g2)</b>.
+<b>[G2のフルデータセットを入手する](https://brightdata.jp/products/datasets/g2)</b>。
 
-<h2>What are the G2 datasets use cases?</h2>
+<h2>G2データセットのユースケースは何ですか？</h2>
 
-<h3>1. Product Analysis and Competitive Benchmarking</h3>
-Leverage the G2 dataset to evaluate competitor products, customer feedback, and overall market positioning. This analysis helps identify market gaps, refine product features, and adjust your offerings to better meet customer needs and gain a competitive edge.
+<h3>1. 製品分析と競合ベンチマーキング</h3>
+G2データセットを活用して、競合製品、顧客フィードバック、そして市場での全体的なポジショニングを評価します。この分析により、市場のギャップを特定し、製品機能を改善し、顧客ニーズにより適合するよう提供内容を調整して競争優位性を獲得できます。
 
-<h3>2. Customer Insight and Experience Enhancement</h3>
-Use customer feedback and ratings from the G2 dataset to gain valuable insights into user satisfaction, preferences, and pain points. These insights enable you to tailor marketing strategies, refine product development, and enhance customer experience to better align with customer expectations and needs.
+<h3>2. 顧客インサイトの獲得と体験の向上</h3>
+G2データセットの顧客フィードバックや評価を用いて、ユーザー満足度、嗜好、課題（ペインポイント）に関する有益なインサイトを得ます。これらのインサイトにより、マーケティング戦略の最適化、製品開発の改善、顧客体験の向上を行い、顧客の期待やニーズにより整合させられます。
 
-<h3>3. Trend Identification and Market Adaptation</h3>
-Analyze the G2 dataset to identify emerging trends in the software industry, helping you anticipate market shifts and align product development with future demands. Staying ahead of these trends enables your business to adapt quickly and maintain a competitive advantage.
+<h3>3. トレンドの特定と市場適応</h3>
+G2データセットを分析してソフトウェア業界における新たなトレンドを特定し、市場の変化を先読みして将来の需要に合わせて製品開発を整合させることができます。これらのトレンドを先取りすることで、ビジネスは迅速に適応し、競争優位性を維持できます。
 
-<h2>Free access to web scraping tools and datasets for academic researchers and NGOs</h2>
+<h2>学術研究者およびNGO向けのWebスクレイピングツールとデータセットへの無料アクセス</h2>
 
-The Bright Initiative offers access to Bright Data's <b>[Web Scraper APIs](https://brightdata.com/products/web-scraper)</b> and <b>[ready-to-use datasets](https://brightdata.com/products/datasets)</b> to leading academic faculties and researchers, NGOs and NPOs promoting various environmental and social causes. You can submit an application <b>[here](https://brightinitiative.com)</b>.
+Bright Initiativeは、主要な学術機関の教員および研究者、ならびに環境・社会的なさまざまな活動を推進するNGOやNPOに対して、Bright Dataの<b>[Web Scraper APIs](https://brightdata.jp/products/web-scraper)</b>と<b>[すぐに使えるデータセット](https://brightdata.jp/products/datasets)</b>へのアクセスを提供しています。申請は<b>[こちら](https://brightinitiative.com)</b>から送信できます。
