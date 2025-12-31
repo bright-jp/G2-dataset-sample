@@ -2,7 +2,7 @@
 
 <h2>1001件のG2ソフトウェア製品レビューのサンプルデータセット</h2>
 
-![G2 dataset header](https://github.com/luminati-io/G2-dataset-sample/blob/main/G2-datasets.png)
+![G2 dataset header](https://github.com/bright-jp/G2-dataset-sample/blob/main/G2-datasets.png)
 
 1000件超のレコードを含むG2ソフトウェア製品レビューのデータセットサンプルです。データセットは<b>Bright Data API</b>を使用して抽出されています。
 
